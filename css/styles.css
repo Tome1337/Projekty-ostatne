@@ -1,0 +1,113 @@
+/* OTHER STYLING */
+body{
+  margin:0;
+  padding:0;
+  width:100%;
+  background: #000;
+}
+*,*::before,*::after{
+  box-sizing: border-box;
+  border: px solid red;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family:"Poppins",sans-serif;
+    color:#fff;
+  }
+
+::selection {
+    color: #000;
+    background: rgba(255,239,44,0.89);
+}
+
+/* HEADER SECTION */
+
+header {
+  display:flex;
+  margin:3% auto;
+  width:70%;
+  border:3px solid #fff;
+  border-radius: 15px;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color:#fff;
+}
+
+
+.lolipop-logo{
+  width:40%;
+  margin:0.3% 3%;
+  display:flex;
+  font-size: 2em;
+  color: #fff;
+  font-style:italic;
+  font-family:"Poppins",sans-serif;
+  font-weight: 900;
+  justify-content: flex-start;
+  flex-direction: row;
+
+}
+nav{
+  display: flex;
+  width: 60%;
+}
+
+
+.lolipop-menu {
+  margin:auto;
+  width:100%;
+  display:flex;
+  color:#fff;
+  font-size: 1.4em;
+  font-style: italic;
+  font-family:"Poppins",sans-serif;
+  font-weight: 900;
+  list-style: none;
+  justify-content: flex-end;
+  flex-direction: row;
+
+}
+
+li{
+  margin-right: 7%;
+}
+li a:hover{
+  color:red;
+}
+li a:focus{
+  color:red;
+}
+
+/* MAIN SECTION*/
+
+.candy-flex{
+  margin:5% 20% 0 15%;
+  display:flex;
+  flex-direction: column;
+}
+
+h1.lolipop-nadpis1{
+  margin:0;
+  font-size: 8em;
+  line-height: 0.75em;
+  font-style: italic;
+  font-weight: 900;
+}
+
+.lolipop-red-color{
+  color:red;
+}
+h2.lolipop-nadpis2{
+  margin:0;
+  font-size: 5em;
+  font-weight: 700;
+}
+
+h3.lolipop-nadpis3{
+  font-size: 2em;
+  text-decoration:line-through;
+  text-align: center;
+}
